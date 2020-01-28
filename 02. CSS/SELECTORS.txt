@@ -1,0 +1,36 @@
+CLASS-->
+	The "class" is used to unify all the attributes in css style sheets linked from the respective htmlpage using the proper synatx.
+	_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+	for example(code in html & css)-->
+		<p class="textmod">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, dolore illo veritatis dicta, obcaecati nostrum quis nesciunt eius velit asperiores quae voluptas impedit pariatur vero recusandae repellat reprehenderit corporis in.</p>
+        <p class="textmod">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, dolore illo veritatis dicta, obcaecati nostrum quis nesciunt eius velit asperiores quae voluptas impedit pariatur vero recusandae repellat reprehenderit corporis in.</p>
+        <p class="textmod">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, dolore illo veritatis dicta, obcaecati nostrum quis nesciunt eius velit asperiores quae voluptas impedit pariatur vero recusandae repellat reprehenderit corporis in.</p>
+        <p class="textmod">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, dolore illo veritatis dicta, obcaecati nostrum quis nesciunt eius velit asperiores quae voluptas impedit pariatur vero recusandae repellat reprehenderit corporis in.</p>
+      <p class="textmod">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, dolore illo veritatis dicta, obcaecati nostrum quis nesciunt eius velit asperiores quae voluptas impedit pariatur vero recusandae repellat reprehenderit corporis in.</p>
+	
+	________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+	
+	The following css page will look like-->
+		body{
+    		background-image: url(doncorleone.jpg);
+    		background-size: cover;
+			}
+		h2,p{
+    		color: red;
+    		text-align: center;
+    		border: 15px groove purple;
+    		cursor: pointer;
+			}
+		p{
+    		color: whitesmoke;
+   			 background-color: white;
+   			 border: 5px dashed rgba(228, 10, 10,0.5);
+			}
+		li{
+   			 list-style-type: disc;
+    		display: inline-flex;
+			}
+	**	.textmod{						//THIS IS IMPLEMENTATION OF SELECTOR CLASS IN CSS
+   			 color: black;
+    		border: 5px dashed green;
+			}
